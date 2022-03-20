@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>76669435294-4rl99g83g6mj1uv83n826o1101c7gnnq.apps.googleusercontent.com</string>
+	<string>852481790380-e12kbdni01ti0eoa2lqp9uu4tssr77a8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.76669435294-4rl99g83g6mj1uv83n826o1101c7gnnq</string>
+	<string>com.googleusercontent.apps.852481790380-e12kbdni01ti0eoa2lqp9uu4tssr77a8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCd5_HvyZqasfdQpCXzXdhosh5FgDfcXmI</string>
+	<string>AIzaSyBrHW5wQj4zDUZ7z5rBM3w1F9vu_-hMn64</string>
 	<key>GCM_SENDER_ID</key>
-	<string>76669435294</string>
+	<string>852481790380</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.tenevg.Todo-list-with-Firebase</string>
 	<key>PROJECT_ID</key>
-	<string>todo-list-fb1cb</string>
+	<string>todofb-9efb0</string>
 	<key>STORAGE_BUCKET</key>
-	<string>todo-list-fb1cb.appspot.com</string>
+	<string>todofb-9efb0.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:76669435294:ios:929d421ac92ecd07af6a8f</string>
+	<string>1:852481790380:ios:9219df4447294fd255aa09</string>
 </dict>
 </plist>

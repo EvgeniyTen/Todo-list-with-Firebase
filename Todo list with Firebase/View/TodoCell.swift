@@ -9,13 +9,28 @@ import UIKit
 
 class TodoCell: UITableViewCell {
     
+    
     // MARK: - Properties
+    var todoItem: TodoItem? {
+        didSet {
+            titleLable.text = todoItem?.title
+            if let isComplete = todoItem?.isComplete, isComplete {
+                statusLabel.text = "Status: complete"
+                statusLabel.textColor = .green
+            } else {
+                statusLabel.text = "Status: incomplete"
+                statusLabel.textColor = .darkGray
+
+            }
+    
+        }
+    }
     let reuseIdentifire = "toDoCell"
 
     private let titleLable: UILabel = {
         let label = UILabel()
         label.font = .boldSystemFont(ofSize: 24)
-        label.textColor = .darkGray
+        label.textColor = .black
         label.text = "Status incomplete"
         return label
     }()

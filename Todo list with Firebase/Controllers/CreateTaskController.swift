@@ -47,7 +47,6 @@ class CreateTaskController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
-        
     }
     // MARK: - Selectors
 
